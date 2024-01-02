@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>::: Crustrade pte ltd :::</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/skin.css" />
+<script type="text/javascript" src="js/jquery-1.3.1.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+
+<script type="text/javascript">
+
+function mycarousel_initCallback(carousel)
+{
+    // Disable autoscrolling if the user clicks the prev or next button.
+    carousel.buttonNext.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    carousel.buttonPrev.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    // Pause autoscrolling if the user moves with the cursor over the clip.
+    carousel.clip.hover(function() {
+        carousel.stopAuto();
+    }, function() {
+        carousel.startAuto();
+    });
+};
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        auto: 5,
+        wrap: 'last',
+        initCallback: mycarousel_initCallback
+    });
+});
+
+</script>
+</head>
+<body>
+<div> 
+  <!--Header Starts -->
+  <div class="header">
+    <div class="panellimit"> <a href="#" class="fleft mt15"><img src="images/logo.png" alt="Crustrade Logo" width="301" height="64" border="0" /></a> </div>
+  </div>
+  <!--Header Starts --> 
+  <!--Navigation Starts -->
+  <div class="navi">
+    <div class="panellimit">
+      <ul>
+        <li class="sel"><a href="#">Home</a></li>
+        <li class="divider">|</li>
+        <li><a href="companyprofile.html">Company Profile </a></li>
+        <li class="divider">|</li>
+        <li><a href="products.html">Products</a></li>
+        <li class="divider">|</li>
+        <li><a href="news_events.html">News/Events</a></li>
+        <li class="divider">|</li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--Navigation Starts --> 
+  <!--Body Starts -->
+  <div class="body">
+    <div class="innerbg">
+      <div class="panellimit">
+        <div style="min-height:538px; padding-top:10px;">
+          <div style="height:278px;">
+          <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" 
+
+codebase="http://download.macromedia.com/pub/shockwave/
+cabs/flash/swflash.cab#version=6,0,40,0" 
+ 
+width="980" height="263" 
+ id="mymoviename">
+            <param name="movie"  
+
+value="images/banner.swf" />
+            <param name="quality" value="high" />
+            <param name="wmode" value="transparent"/>
+            <embed src="images/banner.swf" quality="high" wmode="transparent"  bgcolor="none"
+
+width="980" height="263" 
+
+name="mymoviename" align="" type="application/x-shockwave-flash" 
+
+pluginspage="http://www.macromedia.com/go/getflashplayer"> </embed>
+          </object>
+          </div>
+          
+          <!--Panel Box Starts -->
+          <div class="panelbox leftcol1">
+            <div class="block-top"><span class="left"></span><span class="right"></span></div>
+            <div class="block-body" style="position:relative;">
+              <div class="title">Our Products</div>
+              
+              
+              <div class="viewproduct"><a href="products.html">View All Products</a></div>
+              <!--Slider Main Starts-->
+              <div class="slider">
+                <ul id="mycarousel" class="jcarousel-skin-tango mid">
+                 <li><img src="images/slider/1.jpg" width="145" height="159" alt="Black Tiger / White / Vanamei / Flowery / Pink / Fresh Water / Cat Tiger / Shrimps" /></li>
+                 <li><img src="images/slider/2.jpg" width="145" height="159" alt="Block Frozen Headless Shellon Shrimp" /></li>
+                 <li><img src="images/slider/3.jpg" width="145" height="159" alt="Head-on Vannamei Shrimp" /></li>
+                 <li><img src="images/slider/4.jpg" width="145" height="159" alt="Head-on Black Tiger Shrimp" /></li>
+                 <li><img src="images/slider/5.jpg" width="145" height="159" alt="Cooked IQF Easy Peel Shrimp" /></li>
+                 <li><img src="images/slider/6.jpg" width="145" height="159" alt="Peeled and Undeveined Shrimp" /></li>
+                 <li><img src="images/slider/7.jpg" width="145" height="159" alt="Skewered Peeled and Deveined Shrimp" /></li>
+                 <li><img src="images/slider/8.jpg" width="145" height="159" alt="Peeled Tail-on Shrimp" /></li>
+                 <li><img src="images/slider/9.jpg" width="145" height="159" alt="Peeled Tail-on Butterfly Shrimp" /></li>
+                 <li><img src="images/slider/10.jpg" width="145" height="159" alt="Sushi Ebi, Nobashi, Ebi-Fry" /></li>
+                 <li><img src="images/slider/11.jpg" width="145" height="159" alt="Cooked Peeled Deveined Tail-on IQF Shrimp" /></li>
+                 <li><img src="images/slider/12.jpg" width="145" height="159" alt="Cooked Peeled Deveined Tail-off IQF Shrimp" /></li>
+                 <li><img src="images/slider/13.jpg" width="145" height="159" alt="Squid Whole, Squid Tube, Head & Tentacles, Pineapple Cut" /></li>
+                 <li><img src="images/slider/14.jpg" width="145" height="159" alt="Cuttlefish Whole, Cuttlefish Fillet, Head & Tentacles" /></li>
+                 <li><img src="images/slider/15.jpg" width="145" height="159" alt="Baby Octopus Whole, Gutted, Eyeless, Flower Shape" /></li>
+                 <li><img src="images/slider/16.jpg" width="145" height="159" alt="Froglegs" /></li>
+                 <li><img src="images/slider/17.jpg" width="145" height="159" alt="Blue Swimming Crabs" /></li>
+                 <li><img src="images/slider/18.jpg" width="145" height="159" alt="Fish, Red Snapper, Dory, Barramundi, Red Mullet, Grouper, Pomfrets, Whole, Fillets, G & G " /></li>
+                  <li><img src="images/slider/19.jpg" width="145" height="159" alt="Yellow Fish Tuna, Sword Fish" /></li>
+                  <li><img src="images/slider/20.jpg" width="145" height="159" alt="Rock Lobster Tails, Slipper Lobster Tails, Whole Cooked Lobster, Clams, Mussels, Seafood Mix, etc. " /></li>
+                </ul>
+              </div>
+              <!--Slider Main Ends--> 
+            </div>
+            <div class="block-bottom"><span class="left"></span><span class="right"></span></div>
+          </div>
+          <!--Panel Box Ends --> 
+          <!--Panel Box Starts -->
+          <div class="panelbox rightcol1">
+            <div class="block-top"><span class="left"></span><span class="right"></span></div>
+            <div class="block-body">
+              <div class="title">SME AWARD </div>
+              <div class="body-content" style="text-align:center;"> <img src="images/sme.png" width="136" height="142" alt="SME AWARD" />
+                <p style="text-align:center; color:#F4BE40; padding-top:10px !important; padding-bottom:0px !important;"><strong>Singapore SME <br />
+                  1000 Company 2011</strong></p>
+                <div class="clr"></div>
+              </div>
+            </div>
+            <div class="block-bottom"><span class="left"></span><span class="right"></span></div>
+          </div>
+          <!--Panel Box Ends -->
+          <div class="clr"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Body Starts --> 
+  <!--Footer Starts -->
+  <div class="footer">
+    <div class="panellimit">
+      <div class="fleft"><a href="index.html">Home</a>|<a href="companyprofile.html">Company Profile</a>|<a href="products.html">Products</a>|<a href="news_events.html">News/Events</a>|<a href="contactus.html">Contact Us</a> </div>
+      <div class="fright">© 2012 crustrade pte ltd. All Rights Reserved.</div>
+    </div>
+  </div>
+  <!--Footer Starts --> 
+</div>
+</body>
+</html>

